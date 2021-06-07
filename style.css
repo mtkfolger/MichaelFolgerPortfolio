@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: ;
+    text-align: center;
+    font-size: 250%;
+    color: rgb(194, 144, 144);
+}
+
+#introText{
+    text-align: center;
+    font-size: 125%;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+body{
+    font-family:'Gentium Book Basic', serif;
+    background: #f9f9f9;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+}
+
+.main-header {
+    height: 55vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2%;
+}
+
+header h1 {
+    font-size: 200%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    line-height: 1.2;
+    font-weight: lighter;
+}
+
+.headshot {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+     margin-bottom: 25%;
+}
+
+header h1 span {
+    color: black
+}
+
+.h3 {
+    color:rgb(194, 144, 144);
+}
+img {
+    width: 100%;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 2%;
+    background: rgba(194, 144, 144, 0.377);
+}
+
+.card h3 {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.card img {
+    height: 400px; 
+}
+
+.card > div {
+    padding: 2%;
+}
+
+.card:nth-child(even) img {
+    order: 2;
+}
+
+.container.card:nth-child(odd) img {
+    order: 2;
+}
+
+.button {
+    display: inline-block;
+    background: rgba(168, 87, 87, 0.788);
+    color: whitesmoke;
+    padding: 1%;
+    margin-top: 2%;
+    cursor:pointer;
+}
+
+.button:hover {
+    opacity: 85%;
+}
+
+
+
+@media(max-width: 700px) {
+    .card {
+        display: block;
+    }
+}
+
+.footer {
+    text-align: center;
+    font-size: 100%;
+    color: black;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
