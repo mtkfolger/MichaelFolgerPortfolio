@@ -24,9 +24,20 @@
 
 <img src="Images/headshot.JPG" alt="headshot_michael_folger" class="headshot">
 
+<!-- Code to fade welcome meassge in-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+<script id="rendered-js">
+    gsap.from("p", {delay: .5, duration: 3, ease: "expo.out", opacity:0, y: 100 });
+    </script>
+
 <!-- Nav Bar -->
 <nav>
-    
+    <ul>
+        <li class="buttonNav"><a href="#aboutMe">About Me</a></li>
+        <li class="buttonNav"><a href="#myWork">My Work</a></li>
+        <li class="buttonNav"><a href="#contact">Contact</a></li>
+      </ul>
 </nav>
 
 <!-- Main - This is where the cards will go for each deployed application I
@@ -35,7 +46,8 @@ show on my site-->
 when scrolled past-->
 
 <main class="container">
-    
+
+    <div id="aboutMe"></div>
     <h2 data-aos="fade-right">About Me</h2>
 
     <section class="card" data-aos="fade-down">
@@ -48,6 +60,7 @@ when scrolled past-->
         </div>        
     </section>
 
+    <div id="myWork"></div>
     <h2 data-aos="fade-right">My Work</h2>
 
     <section class="card" data-aos="fade-down">
@@ -80,6 +93,7 @@ when scrolled past-->
         </div>        
     </section>
 
+    <div id="contact"></div>
     <h2 class="h2" data-aos="fade-right"> Contact</h2>
 
     <section class="card" data-aos="fade-down">
