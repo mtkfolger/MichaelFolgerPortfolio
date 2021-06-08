@@ -20,9 +20,18 @@
     <h1><span>Michael Folger | </span> Portfolio</h1>
 </header>
 
-<p id="introText">Welcome to the Web Development Portfolio of Michael Folger</p>
+<!-- Nav Bar -->
+<nav>
+    <ul>
+        <li class="navbutton"><a href="#aboutMe">About Me</a></li>
+        <li class="navbutton"><a href="#myWork">My Work</a></li>
+        <li class="navbutton"><a href="#contact">Contact</a></li>
+      </ul>
+</nav>
 
-<img src="Images/headshot.jpg" alt="headshot_michael_folger" class="headshot">
+<img src="Images/headshot.jpg" href="https://www.google.com" alt="headshot_michael_folger" class="headshot">
+
+<p id="introText">Welcome to the Web Development Portfolio of Michael Folger</p>
 
 <!-- Code to fade welcome meassge in-->
 
@@ -30,15 +39,6 @@
 <script id="rendered-js">
     gsap.from("p", {delay: .5, duration: 3, ease: "expo.out", opacity:0, y: 100 });
     </script>
-
-<!-- Nav Bar -->
-<nav>
-    <ul>
-        <li class="buttonNav"><a href="#aboutMe">About Me</a></li>
-        <li class="buttonNav"><a href="#myWork">My Work</a></li>
-        <li class="buttonNav"><a href="#contact">Contact</a></li>
-      </ul>
-</nav>
 
 <!-- Main - This is where the cards will go for each deployed application I
 show on my site-->
@@ -54,7 +54,7 @@ when scrolled past-->
 <br>
 
     <section class="card" data-aos="fade-down">
-        <img src= "Images/baltimore_oriole.jpg" alt="baltimore oriole">
+        <img src= "Images/baltimore_oriole.jpg" href="https://www.google.com" alt="baltimore oriole">
         <div>
             <h3>Hi, I'm Michael.</h3>
                 <p class="aboutMe"> It's a pleasure to meet you. I'm Michael Folger, a Digital Marketing & Video Production Specialist currently transitioning into full-time web developement. 
@@ -72,7 +72,7 @@ when scrolled past-->
 <br>
 <br>
     <section class="cardTop1" data-aos="fade-down">
-        <img src="Images/downy_woodpecker.jpg" alt="downy woodpecker">      
+        <a href="https://www.google.com" target="_blank"><img src="Images/downy_woodpecker.jpg" alt="downy woodpecker"></a>      
     </section>
 
     <section class="cardTop2" data-aos="fade-down">
@@ -86,7 +86,7 @@ when scrolled past-->
     </section>
 
     <section class="card" data-aos="fade-down">
-        <img src="Images/eastern_bluebird.jpg" alt="eastern bluebird">
+        <a class="imglink" href="https://www.google.com" target="_blank"><img src="Images/eastern_bluebird.jpg" alt="eastern bluebird"></a>
         <div>
             <h3>Deployed Application 1</h3>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta cupiditate tenetur consequuntur praesentium, minima eveniet quas et recusandae ab voluptatum aliquid voluptatem quia id veniam reprehenderit in mollitia eaque eligendi!
@@ -96,7 +96,7 @@ when scrolled past-->
     </section>
 
     <section class="card" data-aos="fade-down">
-        <img src="Images/goldfinch.jpg" alt="goldfinch">
+        <img src="Images/goldfinch.jpg" href="https://www.google.com" alt="goldfinch">
         <div>
             <h3>Deployed Application 2</h3>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta cupiditate tenetur consequuntur praesentium, minima eveniet quas et recusandae ab voluptatum aliquid voluptatem quia id veniam reprehenderit in mollitia eaque eligendi!
@@ -106,7 +106,7 @@ when scrolled past-->
     </section>
 
     <section class="card" data-aos="fade-down">
-        <img src="Images/red_tailed_hawk.jpg" alt="red tailed hawk">
+        <img src="Images/red_tailed_hawk.jpg" href="https://www.google.com" alt="red tailed hawk">
         <div>
             <h3>Deployed Application 3</h3>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta cupiditate tenetur consequuntur praesentium, minima eveniet quas et recusandae ab voluptatum aliquid voluptatem quia id veniam reprehenderit in mollitia eaque eligendi!
@@ -121,7 +121,7 @@ when scrolled past-->
 <br>
 <br>
     <section class="card" data-aos="fade-down">
-        <img src="Images/barn_owl.jpg" alt="barn_owl">
+        <img src="Images/barn_owl.jpg" href="https://www.google.com" alt="barn_owl">
         <div>
             <h3>Contact Me</h3>
                 <p> To contact me, please visit <a class="button" href="https://www.michaelfolger.com" target="_blank">my website</a> or visit my <a class="button" href="https://www.linkedin.com/in/michaelfolger/" target="_blank">LinkedIn</a> profile.
@@ -133,14 +133,14 @@ when scrolled past-->
         </div>        
     </section>
 
+    <a href="#" class="button4">top</a>
+    
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init({
           offset: 100,
           duration: 800
       });
-
-
     </script>
 
     </body>
