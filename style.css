@@ -26,8 +26,6 @@ body{
 a{
     color: #333;
     text-decoration: none;
-    margin-bottom: 2%;
-    margin-left: 2%;
 }
 
 .container {
@@ -131,6 +129,8 @@ img {
     color: whitesmoke;
     padding: 1%;
     margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
     cursor:pointer;
 }
 
@@ -240,4 +240,9 @@ a.button4{
     color: black;
     margin-top: 1%;
     margin-bottom: 3%;
+}
+
+#top {
+    scroll-behavior: smooth;
+    animation-duration: 01s;
 }
