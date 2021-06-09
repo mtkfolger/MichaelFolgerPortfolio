@@ -24,15 +24,17 @@ body{
 }
 
 a{
-    display: inline-block;
     color: #333;
     text-decoration: none;
 }
 
 .imglink {
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    margin-top: 0%;
+    padding-top: 0%;
+    padding: 0%;
 }
+
 
 .container {
     max-width: 1300px;
@@ -100,6 +102,7 @@ img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 2%;
+    padding:0%;
     background: rgba(194, 144, 144, 0.377);
 }
 
@@ -180,12 +183,12 @@ ul {
 }
 
 .cardTop1 {
-    scale: 40%;
     margin-bottom:0%;
     padding: 0%;
     border: 0%;
-    height: 85%;
+    height: 95%;
     background: rgb(194, 144, 144, 0.377);
+    background-size: 100%;
 }
 
 .cardTop1 img:hover {
