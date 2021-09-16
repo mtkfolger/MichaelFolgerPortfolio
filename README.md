@@ -3,7 +3,7 @@ This is my portfolio
 
 Link to deployed application: https://mtkfolger.github.io/MichaelFolgerPortfolio/
 
-Screenshot of deployed application: ![michael_folger_portfolio_site_screenshot](https://user-images.githubusercontent.com/84151997/121282284-3b01cf00-c8a7-11eb-879c-656d0b8c9f2a.JPG)
+Screenshot of deployed application: ![MF_Portfolio_Snip](https://user-images.githubusercontent.com/84151997/133685782-f4df8a81-653f-4f52-bae9-24271ababbbc.JPG)
 
 
 For this project, I utilized HTML and CSS to create an expandable, professional portfolio for 
